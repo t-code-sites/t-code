@@ -1,24 +1,25 @@
-import { Route, Routes } from 'react-router-dom';
+import { Navigate, Route, Routes } from 'react-router-dom';
 import LandingPage from '@/pages/LandingPage';
-import About from '@/pages/About';
-import Services from '@/pages/Services';
 import NotFound from '@/pages/404';
-import Contact from '@/pages/Contact';
 import PolicyAndPrivacy from '@/pages/PolicyAndPrivacy';
-import Projects from '@/pages/Projects';
+import { siteSections } from '@/data/siteSections';
+
+function LegacyRedirect({ hash }: { hash: string }) {
+    return <Navigate to={`/${hash}`} replace />;
+}
 
 function router() {
     return (
         <Routes>
-            <Route path="/" element={<LandingPage/>} />
-            <Route path="/sobre-a-empresa" element={<About/>}/>
-            <Route path="/servicos" element={<Services/>}/>
-            <Route path="/projetos" element={<Projects/>}/>
-            <Route path="/contato" element={<Contact/>}/>
-            <Route path="/politica-de-privacidade" element={<PolicyAndPrivacy/>}/>
-            <Route path="*" element={<NotFound/>}/>
+            <Route path="/" element={<LandingPage />} />
+            <Route path="/politica-de-privacidade" element={<PolicyAndPrivacy />} />
+            <Route path="/sobre-a-empresa" element={<LegacyRedirect hash={`#${siteSections.quemSomos.id}`} />} />
+            <Route path="/servicos" element={<LegacyRedirect hash={`#${siteSections.servicos.id}`} />} />
+            <Route path="/projetos" element={<LegacyRedirect hash={`#${siteSections.projetos.id}`} />} />
+            <Route path="/contato" element={<LegacyRedirect hash={`#${siteSections.contato.id}`} />} />
+            <Route path="*" element={<NotFound />} />
         </Routes>
-    )
+    );
 }
 
 export default router;

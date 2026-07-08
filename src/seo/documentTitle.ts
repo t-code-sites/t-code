@@ -1,14 +1,10 @@
-const BASE = "T-Code Soluções";
+const BASE = 'T-Code Soluções';
 
-export const defaultDocumentTitle = `${BASE} | Software sob medida, consultoria e operação em produção`;
+export const defaultDocumentTitle = `${BASE} | Desenvolvimento de software sob medida e produtos digitais`;
 
 const titles: Record<string, string> = {
-    "/": defaultDocumentTitle,
-    "/sobre-a-empresa": `Quem somos | ${BASE}`,
-    "/servicos": `Serviços | ${BASE}`,
-    "/projetos": `Projetos desenvolvidos | ${BASE}`,
-    "/contato": `Contato | ${BASE}`,
-    "/politica-de-privacidade": `Política de privacidade | ${BASE}`,
+    '/': defaultDocumentTitle,
+    '/politica-de-privacidade': `Política de privacidade | ${BASE}`,
 };
 
 export function getDocumentTitle(pathname: string): string {

@@ -1,58 +1,56 @@
-import {useEffect, useState} from 'react';
-import { Link } from 'react-router-dom';
+import { useEffect, useState } from 'react';
+import { Link, useLocation } from 'react-router-dom';
 import Logo from '@/components/ui/logo';
 import Menu from '@/components/layout/Menu';
 import MenuMobile from '@/components/layout/MenuMobile';
 
 function Header() {
+    const { pathname } = useLocation();
     const [isMobile, setIsMobile] = useState(false);
     const [isScrolled, setIsScrolled] = useState(false);
-    const [page, setPage] = useState(window.location.pathname);
+
+    const isHome = pathname === '/';
+    const overHero = isHome && !isScrolled;
+    const lightNav = !isHome;
 
     useEffect(() => {
         const handleResize = () => {
-            if (window.innerWidth <= 768) {
-                setIsMobile(true);
-            } else {
-                setIsMobile(false);
-            }
+            setIsMobile(window.innerWidth <= 768);
         };
 
         handleResize();
         window.addEventListener('resize', handleResize);
-
-        return () => {
-            window.removeEventListener('resize', handleResize);
-        };
+        return () => window.removeEventListener('resize', handleResize);
     }, []);
 
     useEffect(() => {
         const handleScroll = () => {
-            const currentScrollPos = window.pageYOffset;
-            const isTop = currentScrollPos < 100;
-
-            setIsScrolled(!isTop);
+            setIsScrolled(window.pageYOffset >= 80);
         };
 
+        handleScroll();
         window.addEventListener('scroll', handleScroll);
         return () => window.removeEventListener('scroll', handleScroll);
-    }, []);
+    }, [pathname]);
 
     return (
-        <header className={`w-full h-20 ease-in duration-200 fixed ${isScrolled && !isMobile && page === '/' ? 'bg-blue-700 md:h-20' : page === '/' && !isMobile ? 'bg-transparent' : 'bg-blue-700 sticky' } top-0 z-50 shadow-lg md:h-24`}>
-            <div className="flex items-center justify-between h-full p-4 md:w-4/5 md:p-0 md:mx-auto md:my-0">
-                <Link to="/" title="Voltar ao início" draggable={false}>
-                    <h1>
-                        <Logo width={isMobile ? 48 : 64} height={isMobile ? 48 : 64}/>
-                    </h1>
+        <header
+            className={`fixed top-0 z-50 h-20 w-full transition-colors duration-200 md:h-24 ${
+                overHero
+                    ? 'bg-transparent text-white shadow-none'
+                    : lightNav
+                      ? 'bg-blue-700 text-white shadow-lg'
+                      : 'bg-blue-700 text-white shadow-lg'
+            }`}
+        >
+            <div className="mx-auto flex h-full items-center justify-between p-4 md:w-4/5 md:p-0">
+                <Link to="/#inicio" title="Voltar ao início" draggable={false}>
+                    <Logo width={isMobile ? 48 : 64} height={isMobile ? 48 : 64} />
                 </Link>
-                { isMobile
-                    ? <MenuMobile/>
-                    : <Menu setPage={setPage}/>
-                }
+                {isMobile ? <MenuMobile lightNav={lightNav} overHero={overHero} /> : <Menu lightNav={lightNav} overHero={overHero} />}
             </div>
         </header>
-    )
+    );
 }
 
 export default Header;

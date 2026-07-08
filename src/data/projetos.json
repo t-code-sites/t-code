@@ -1,0 +1,56 @@
+[
+  {
+    "id": "habitx",
+    "name": "Habitx",
+    "type": "cliente",
+    "description": "Sistema completo para corretores, construtores e loteadores com CRM, conexão com redes sociais, gestão e anúncios de imóveis e empreendimento.",
+    "images": [
+      "/projects/habitx/initial.png",
+      "/projects/habitx/dashboard.png",
+      "/projects/habitx/search.png"
+    ]
+  },
+  {
+    "id": "logpago",
+    "name": "LogPago",
+    "type": "cliente",
+    "description": "Sistema para gestão e controle de antecipação de recebíveis focado em transportaderes de e-commerce.",
+    "images": [
+      "/projects/logpago/initial.png",
+      "/projects/logpago/dashboard.png",
+      "/projects/logpago/negotiations.png"
+    ]
+  },
+  {
+    "id": "box-logistics",
+    "name": "Box Logistics",
+    "type": "cliente",
+    "description": "ERP completo para gestão logistica e financeira de transportadores de e-commerce. O sistema posui módulos de gestão de rotas e pacotes, possui integrações com bancos e sistemas de assinatura eletrônica.",
+    "images": [
+      "/projects/brbox/login.png",
+      "/projects/brbox/initial.png",
+      "/projects/brbox/routes.png"
+    ]
+  },
+  {
+    "id": "soliciacao-adiantamentos",
+    "name": "Solicitação de Adiantamentos",
+    "type": "cliente",
+    "description": "Sistema customizável para controle e gestão de solicitações de adiantamento desenvolvido para fabricante de caldeiras com integração com ERP Evolutize",
+    "images": [
+      "/projects/soladiantamento/login.png",
+      "/projects/soladiantamento/dashboard.png",
+      "/projects/soladiantamento/novasolicitacao.png",
+      "/projects/soladiantamento/usuario.png"
+    ]
+  },
+  {
+    "id": "zapsign",
+    "name": "Integração de Documentos Fiscais - ZapSign",
+    "type": "cliente",
+    "description": "Sistema de API para integração de dados entre o sistema de gestão logística da Box Logistics e o sistema de assinatura de documentos da ZapSign.",
+    "images": [
+      "/projects/zapsign/api.png"
+    ]
+  }
+]

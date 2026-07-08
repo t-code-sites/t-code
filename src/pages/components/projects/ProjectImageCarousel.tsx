@@ -73,7 +73,14 @@ function ProjectImageCarousel({ images, projectName }: ProjectImageCarouselProps
     }, []);
 
     if (images.length === 0) {
-        return null;
+        return (
+            <div
+                className="flex min-h-[min(55vh,440px)] w-full items-center justify-center rounded-lg border border-white/10 bg-white/[0.04] px-6 text-center"
+                aria-hidden
+            >
+                <div className="aspect-video w-full max-w-xl rounded-md border border-dashed border-white/15 bg-white/[0.03]" />
+            </div>
+        );
     }
 
     const carouselOpts = {

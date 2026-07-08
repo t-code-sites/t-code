@@ -1,38 +1,50 @@
 export const services = [
     {
-        title: 'Projetos',
-        id: 'projetos',
-        subtitle: 'A solução em forma de um sistema desenvolvido exclusivamente para a sua empresa.',
-        description: 'Desenvolver um sistema do zero é como construir uma casa a partir do alicerce: um processo meticuloso que envolve planejamento, design e implementação cuidadosa para criar uma solução tecnológica robusta, segura, eficaz e personalizada. Entregas pensadas para ir a produção com rastreabilidade e manutenção futura.',
+        title: 'Produtos digitais sob medida',
+        id: 'produtos-digitais',
+        subtitle:
+            'Da ideia ao sistema em produção: plataformas web, sistemas corporativos e SaaS construídos para as regras do seu negócio.',
+        description:
+            'Conduzimos projetos de software sob medida do levantamento de requisitos à entrega em produção. Experiência em sistemas corporativos, plataformas SaaS e aplicações web, sempre com arquitetura pensada para escalar.',
     },
     {
-        title: 'Desenvolvimento e manutenção',
+        title: 'Evolução e operação contínua',
         id: 'producao',
-        subtitle: 'Mantenha site e sistema estáveis, seguros e atuais após o deploy; não basta “existir” no repositório.',
-        description: 'Cuidado contínuo de sistemas e sites em produção: deploy e pipelines, domínio e certificados, ajustes de performance, monitoramento, backups, correção de incidentes, atualizações de dependências e acompanhamento de saúde da aplicação. Ideal quando alguém gerou código (às vezes com ajuda de IA) sem clareza sobre arquitetura, segurança, escalabilidade ou o caminho correto para colocar e manter no ar com confiança.',
+        subtitle:
+            'Seu produto no ar, estável e evoluindo. Cuidamos de deploy, monitoramento e melhorias para que a tecnologia acompanhe o crescimento.',
+        description:
+            'Software não termina no deploy. Mantemos sistemas e plataformas web estáveis, seguros e atualizados, para que sua operação não pare por falha técnica.',
     },
     {
-        title: 'Customização',
+        title: 'Adaptação ao seu processo',
         id: 'customizacao',
-        subtitle: 'É como ter um conjunto de ferramentas feitas exclusivamente para você, garantindo as funcionalidades exatas de que precisa.',
-        description: 'Adaptamos uma solução tecnológica existente às regras do seu negócio, integrando com o que você já utiliza, sem reinventar tudo. Customização alinhada a padrões de qualidade, para que a evolução não vire dívida técnica incontrolável em produção.',
+        subtitle:
+            'Ajustamos e estendemos sistemas existentes para refletir como sua empresa realmente opera, sem reinventar tudo.',
+        description:
+            'Quando um sistema genérico não atende, adaptamos funcionalidades e fluxos às regras do seu domínio, com código sustentável e evolução previsível.',
     },
     {
-        title: 'Integrações e automação',
+        title: 'Automação de processos',
         id: 'integracoes',
-        subtitle: 'Conectar o que você já usa: ERPs, APIs de terceiros, mensageria e filas, com fluxos mais previsíveis.',
-        description: 'Consumo e exposição de APIs, webhooks, integrações com ERPs e plataformas de terceiros, e automação de processos para reduzir retrabalho e erro manual. Serve para produtos novos, evolução de legado e operação em produção quando o sistema precisa conversar com o restante da empresa.',
+        subtitle:
+            'Conectamos ERPs, plataformas e APIs para eliminar retrabalho, reduzir erros e acelerar a operação.',
+        description:
+            'Integramos sistemas que hoje operam isolados: ERPs, gateways, plataformas de terceiros e APIs de marketplaces. Menos planilhas, menos erro manual, mais previsibilidade.',
     },
     {
-        title: 'Consultoria técnica',
+        title: 'Direção estratégica de produto',
         id: 'consultoria',
-        subtitle: 'Avaliação, direção e governança técnica: do diagnóstico às decisões que valem na prática em produção.',
-        description: 'Mentoria e análise para quem precisa de uma segunda opinião ou de um roteiro seguro: revisão de requisitos e arquitetura, análise de riscos, priorização, escolha de stack, leitura de legado, checklist de boas práticas e acompanhamento de implementação. Especialmente útil quando a equipe interna ou o desenvolvedor sozinho usou ferramentas e IA para codar, mas faltou experiência com testes, segurança, desempenho e o que é necessário para operar com tranquilidade após a publicação em produção.',
+        subtitle:
+            'Diagnóstico, arquitetura e priorização para quem precisa de clareza antes de investir em tecnologia.',
+        description:
+            'Para quem precisa de uma visão clara antes de desenvolver: avaliamos o cenário, definimos arquitetura e priorizamos entregas com foco em retorno para o negócio.',
     },
     {
-        title: 'Site',
+        title: 'Presença digital com propósito',
         id: 'site',
-        subtitle: 'Presença digital e performance, com indexação, acessibilidade e experiência, não só “página publicada”.',
-        description: 'Criação e evolução de sites e landing pages, com atenção a conteúdo, SEO técnico básico, performance e a experiência do visitante. A internet continua sendo o ponto de busca principal; estruturar o site e as redes de forma coerente ajuda seu negócio a ser encontrado e a transmitir profissionalismo, inclusive como parte de um ecossistema alinhado a sistemas internos.',
-    }
+        subtitle:
+            'Sites e portais que posicionam sua marca, captam oportunidades e se integram ao ecossistema do negócio.',
+        description:
+            'Construímos e evoluímos sites e portais com foco em conversão, performance e integração com sistemas internos. Presença digital que trabalha a favor do negócio.',
+    },
 ];
