@@ -30,6 +30,11 @@ export const siteSections = {
         shell: sectionColors.slate,
         theme: 'slate' as SectionTheme,
     },
+    prototipo: {
+        id: 'prototipo',
+        shell: sectionColors.light,
+        theme: 'light' as SectionTheme,
+    },
     servicos: {
         id: 'servicos',
         shell: sectionColors.brand,

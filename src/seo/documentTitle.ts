@@ -1,6 +1,6 @@
 const BASE = 'T-Code Soluções';
 
-export const defaultDocumentTitle = `${BASE} | Desenvolvimento de software sob medida e produtos digitais`;
+export const defaultDocumentTitle = `${BASE} | Protótipo em produção e software sob medida`;
 
 const titles: Record<string, string> = {
     '/': defaultDocumentTitle,

@@ -1,4 +1,4 @@
-import { BookOpen, Globe, Layers, Link2, Puzzle, ServerCog } from 'lucide-react';
+import { BookOpen, Globe, Layers, Link2, Puzzle, Rocket, ServerCog } from 'lucide-react';
 import { solutionsSection } from '@/data/landingContent';
 import { services } from '@/data/services';
 import { siteSections } from '@/data/siteSections';
@@ -7,6 +7,7 @@ import SectionShell from '@/pages/components/landing-page/SectionShell';
 import type { LucideIcon } from 'lucide-react';
 
 const iconById: Record<string, LucideIcon> = {
+    'prototipo-producao': Rocket,
     'produtos-digitais': Layers,
     producao: ServerCog,
     customizacao: Puzzle,

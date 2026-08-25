@@ -1,5 +1,13 @@
 export const services = [
     {
+        title: 'Do protótipo à produção',
+        id: 'prototipo-producao',
+        subtitle:
+            'Colocamos no ar o que você começou com ferramentas de IA e assumimos a manutenção.',
+        description:
+            'Para quem já tem site ou sistema gerado por IA e precisa publicar, estabilizar e evoluir com um parceiro técnico. Sem recomeçar do zero.',
+    },
+    {
         title: 'Produtos digitais sob medida',
         id: 'produtos-digitais',
         subtitle:

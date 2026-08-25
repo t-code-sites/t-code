@@ -34,7 +34,14 @@ export const heroSection = {
     eyebrow: 'T-Code Soluções',
     title: 'Transformamos ideias em produtos digitais que geram resultado',
     subtitle:
-        'Parceira tecnológica para empresas que precisam criar, evoluir e escalar software sob medida. Da concepção à operação contínua, com foco no que importa para o negócio.',
+        'Parceira tecnológica para empresas com protótipo ou software em andamento. Colocamos no ar, estabilizamos e mantemos.',
+};
+
+export const prototypeSection = {
+    title: 'Travou antes de colocar no ar?',
+    text: 'Criou site ou sistema com ferramentas de IA e não conseguiu publicar ou manter? A T-Code assume, coloca em produção e cuida da operação.',
+    ctaLabel: 'Ver como funciona',
+    serviceId: 'prototipo-producao',
 };
 
 export const aboutSection = {

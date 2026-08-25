@@ -1,6 +1,7 @@
 import LandingHero from '@/pages/components/landing-page/LandingHero';
 import AboutSection from '@/pages/components/landing-page/AboutSection';
 import ProblemsSection from '@/pages/components/landing-page/ProblemsSection';
+import PrototypeSection from '@/pages/components/landing-page/PrototypeSection';
 import ServicesSection from '@/pages/components/landing-page/ServicesSection';
 import HowWeWorkSection from '@/pages/components/landing-page/HowWeWorkSection';
 import ProjectsSection from '@/pages/components/landing-page/ProjectsSection';
@@ -19,6 +20,10 @@ function LandingPage() {
 
             <AnimatedVisibility animation="animate__fadeInUp duration-1000">
                 <ProblemsSection />
+            </AnimatedVisibility>
+
+            <AnimatedVisibility animation="animate__fadeInUp duration-1000">
+                <PrototypeSection />
             </AnimatedVisibility>
 
             <AnimatedVisibility animation="animate__fadeInUp duration-1000">
