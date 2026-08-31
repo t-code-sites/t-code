@@ -1,9 +1,4 @@
-# Diretivas gerais
 User-agent: *
-Disallow: /admin/
-Disallow: /login/
-Disallow: /cgi-bin/
-Disallow: /tmp/
-Disallow: /private/
+Allow: /
 
 Sitemap: https://www.tcodesolucoes.com/sitemap.xml

@@ -8,7 +8,7 @@ interface logoProps {
 function Logo({width, height}: logoProps) {
     return (
         <>
-            <img src={logoPath} alt="logo" width={width} height={height} draggable={false}/>
+            <img src={logoPath} alt="T-Code Soluções" width={width} height={height} draggable={false}/>
         </>
     );
 }

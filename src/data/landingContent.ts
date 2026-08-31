@@ -134,7 +134,7 @@ export const projectsSection = {
         name: 'AltoValeVagas',
         url: 'https://www.altovalevagas.com.br',
         description:
-            'Sistema simples para ajudar pessoas a escontrarem emprego nas 28 cidades da região do Alto Vale do Itajaí.',
+            'Sistema simples para ajudar pessoas a encontrarem emprego nas 28 cidades da região do Alto Vale do Itajaí.',
     },
 };
 

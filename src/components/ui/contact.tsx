@@ -13,8 +13,9 @@ function Contact() {
                 <>
                     <h3 className="text-left text-base font-bold uppercase tracking-wide text-white">Contato</h3>
                     <div className="mb-0 mt-3 flex flex-col gap-2.5 text-left text-sm leading-normal text-white/95 sm:text-base">
-                        <p className="m-0 p-0">Telefone: (47) 99112 0742</p>
-                        <p className="m-0 p-0">Email: comercial@tcodesolucoes.com</p>
+                        <a href={WHATSAPP_URL} className="m-0 p-0 hover:underline" title="Chamar no WhatsApp">
+                            WhatsApp: (47) 99112-0742
+                        </a>
                     </div>
                     <div className="mt-5 flex items-center justify-start gap-3">
                         <a
@@ -54,11 +55,8 @@ function Contact() {
                         </AccordionTrigger>
                         <AccordionContent>
                             <div className="flex flex-col gap-1 text-white/95">
-                                <a href="tel:47991120742" title="Telefone">
-                                    <b>Telefone:</b> (47) 99112-0742
-                                </a>
-                                <a href="mailto:comercial@tcodesolucoes.com" title="Email">
-                                    <b>Email:</b> comercial@tcodesolucoes.com
+                                <a href={WHATSAPP_URL} title="Chamar no WhatsApp">
+                                    <b>WhatsApp:</b> (47) 99112-0742
                                 </a>
                             </div>
                             <div className="mt-4 flex items-center justify-start gap-2">

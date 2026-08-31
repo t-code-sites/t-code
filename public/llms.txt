@@ -1,0 +1,71 @@
+# T-Code Soluções Tecnológicas LTDA
+
+> Parceira tecnológica em desenvolvimento de software sob medida. Sede em Rio do Sul, SC. Atende empresas nos 28 municípios do Alto Vale do Itajaí (AMAVI) e em todo o Brasil.
+
+## Contato
+
+- Site: https://www.tcodesolucoes.com/
+- WhatsApp: +55 47 99112-0742
+- Endereço: Rio do Sul, SC, 89160-000
+- LinkedIn: https://br.linkedin.com/company/t-code-solucoes-tecnologicas
+- Instagram: https://www.instagram.com/tcodesolucoes/
+
+## Serviços
+
+- Do protótipo à produção: coloca no ar sites e sistemas iniciados com ferramentas de IA (Lovable, Bolt, v0 e similares)
+- Produtos digitais sob medida: plataformas web, sistemas corporativos e SaaS
+- Evolução e operação contínua: deploy, monitoramento e manutenção
+- Adaptação ao seu processo: extensão e customização de sistemas existentes
+- Automação de processos: integrações com ERPs, APIs e plataformas
+- Direção estratégica de produto: arquitetura, diagnóstico e priorização
+- Presença digital com propósito: sites e portais corporativos
+
+## Região de atuação (Alto Vale do Itajaí / AMAVI)
+
+A T-Code Soluções atende empresas em todos os 28 municípios associados à AMAVI:
+
+- Agrolândia: https://www.tcodesolucoes.com/regiao/agrolandia
+- Agronômica: https://www.tcodesolucoes.com/regiao/agronomica
+- Atalanta: https://www.tcodesolucoes.com/regiao/atalanta
+- Aurora: https://www.tcodesolucoes.com/regiao/aurora
+- Braço do Trombudo: https://www.tcodesolucoes.com/regiao/braco-do-trombudo
+- Chapadão do Lageado: https://www.tcodesolucoes.com/regiao/chapadao-do-lageado
+- Dona Emma: https://www.tcodesolucoes.com/regiao/dona-emma
+- Ibirama: https://www.tcodesolucoes.com/regiao/ibirama
+- Imbuia: https://www.tcodesolucoes.com/regiao/imbuia
+- Ituporanga: https://www.tcodesolucoes.com/regiao/ituporanga
+- José Boiteux: https://www.tcodesolucoes.com/regiao/jose-boiteux
+- Laurentino: https://www.tcodesolucoes.com/regiao/laurentino
+- Lontras: https://www.tcodesolucoes.com/regiao/lontras
+- Mirim Doce: https://www.tcodesolucoes.com/regiao/mirim-doce
+- Petrolândia: https://www.tcodesolucoes.com/regiao/petrolandia
+- Pouso Redondo: https://www.tcodesolucoes.com/regiao/pouso-redondo
+- Presidente Getúlio: https://www.tcodesolucoes.com/regiao/presidente-getulio
+- Presidente Nereu: https://www.tcodesolucoes.com/regiao/presidente-nereu
+- Rio do Campo: https://www.tcodesolucoes.com/regiao/rio-do-campo
+- Rio do Oeste: https://www.tcodesolucoes.com/regiao/rio-do-oeste
+- Rio do Sul (sede): https://www.tcodesolucoes.com/regiao/rio-do-sul
+- Salete: https://www.tcodesolucoes.com/regiao/salete
+- Santa Terezinha: https://www.tcodesolucoes.com/regiao/santa-terezinha
+- Taió: https://www.tcodesolucoes.com/regiao/taio
+- Trombudo Central: https://www.tcodesolucoes.com/regiao/trombudo-central
+- Vidal Ramos: https://www.tcodesolucoes.com/regiao/vidal-ramos
+- Vitor Meireles: https://www.tcodesolucoes.com/regiao/vitor-meireles
+- Witmarsum: https://www.tcodesolucoes.com/regiao/witmarsum
+
+Índice regional: https://www.tcodesolucoes.com/regiao
+
+## Páginas de serviços
+
+- Serviços: https://www.tcodesolucoes.com/servicos
+- Protótipo em produção: https://www.tcodesolucoes.com/servicos/prototipo-producao
+- Produtos digitais sob medida: https://www.tcodesolucoes.com/servicos/produtos-digitais
+- Evolução e operação contínua: https://www.tcodesolucoes.com/servicos/producao
+- Adaptação ao processo: https://www.tcodesolucoes.com/servicos/customizacao
+- Automação de processos: https://www.tcodesolucoes.com/servicos/integracoes
+- Consultoria de produto: https://www.tcodesolucoes.com/servicos/consultoria
+- Presença digital: https://www.tcodesolucoes.com/servicos/site
+
+## Produto social regional
+
+- AltoValeVagas (plataforma gratuita de empregos para o Alto Vale do Itajaí): https://www.altovalevagas.com.br
