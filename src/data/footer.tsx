@@ -1,32 +1,26 @@
-import { WHATSAPP_URL } from '@/config/site';
 import { services as servicesCatalog } from '@/data/services';
-import { siteSections } from '@/data/siteSections';
+
+export type FooterModalId = 'privacy' | 'projects';
+
+export type FooterItem = {
+    description: string;
+    link?: string;
+    modal?: FooterModalId;
+};
 
 /** Links do rodapé derivados do catálogo de serviços. */
-export const footerServiceLinks = servicesCatalog.map((s) => ({
+export const footerServiceLinks: FooterItem[] = servicesCatalog.map((s) => ({
     description: s.title,
     link: `/#${s.id}`,
 }));
 
-export const institutional = [
+export const institutional: FooterItem[] = [
     {
         description: 'Política de Privacidade',
-        link: '/politica-de-privacidade',
-    },
-    {
-        description: 'Sobre nós',
-        link: `/#${siteSections.quemSomos.id}`,
+        modal: 'privacy',
     },
     {
         description: 'Produtos e projetos',
-        link: `/#${siteSections.projetos.id}`,
-    },
-    {
-        description: 'Contato',
-        link: `/#${siteSections.contato.id}`,
-    },
-    {
-        description: 'WhatsApp',
-        link: WHATSAPP_URL,
+        modal: 'projects',
     },
 ];

@@ -37,7 +37,6 @@ export const serviceSlugs = [
     'prototipo-producao',
     'produtos-digitais',
     'producao',
-    'customizacao',
     'integracoes',
     'consultoria',
     'site',

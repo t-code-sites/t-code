@@ -132,14 +132,8 @@ function ProjectImageCarousel({ images, projectName }: ProjectImageCarouselProps
                           </CarouselContent>
                           {images.length > 1 && (
                               <>
-                                  <CarouselPrevious
-                                      variant="outline"
-                                      className="left-1 top-1/2 z-10 h-10 w-10 -translate-y-1/2 border-white/40 bg-black/40 text-white shadow-lg hover:bg-black/60 hover:text-white disabled:opacity-30 sm:left-2 sm:h-11 sm:w-11"
-                                  />
-                                  <CarouselNext
-                                      variant="outline"
-                                      className="right-1 top-1/2 z-10 h-10 w-10 -translate-y-1/2 border-white/40 bg-black/40 text-white shadow-lg hover:bg-black/60 hover:text-white disabled:opacity-30 sm:right-2 sm:h-11 sm:w-11"
-                                  />
+                                  <CarouselPrevious className="left-1 top-1/2 z-10 h-10 w-10 -translate-y-1/2 border-white/40 bg-black/40 text-white shadow-lg hover:bg-black/60 hover:text-white disabled:opacity-30 sm:left-2 sm:h-11 sm:w-11" />
+                                  <CarouselNext className="right-1 top-1/2 z-10 h-10 w-10 -translate-y-1/2 border-white/40 bg-black/40 text-white shadow-lg hover:bg-black/60 hover:text-white disabled:opacity-30 sm:right-2 sm:h-11 sm:w-11" />
                               </>
                           )}
                       </Carousel>
@@ -190,14 +184,8 @@ function ProjectImageCarousel({ images, projectName }: ProjectImageCarouselProps
                     </CarouselContent>
                     {images.length > 1 && (
                         <>
-                            <CarouselPrevious
-                                variant="outline"
-                                className="left-2 top-1/2 z-10 h-9 w-9 -translate-y-1/2 border-gray-300 bg-white/95 shadow-md hover:bg-white disabled:opacity-40"
-                            />
-                            <CarouselNext
-                                variant="outline"
-                                className="right-2 top-1/2 z-10 h-9 w-9 -translate-y-1/2 border-gray-300 bg-white/95 shadow-md hover:bg-white disabled:opacity-40"
-                            />
+                            <CarouselPrevious className="left-2 top-1/2 z-10 h-9 w-9 -translate-y-1/2 border-gray-300 bg-white/95 shadow-md hover:bg-white disabled:opacity-40" />
+                            <CarouselNext className="right-2 top-1/2 z-10 h-9 w-9 -translate-y-1/2 border-gray-300 bg-white/95 shadow-md hover:bg-white disabled:opacity-40" />
                         </>
                     )}
                 </Carousel>

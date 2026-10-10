@@ -1,21 +1,20 @@
 # T-Code Soluções Tecnológicas LTDA
 
-> Parceira tecnológica em desenvolvimento de software sob medida. Sede em Rio do Sul, SC. Atende empresas nos 28 municípios do Alto Vale do Itajaí (AMAVI) e em todo o Brasil.
+> Coloca no ar, corrige e mantém online sites e sistemas criados com ferramentas de IA. Sede em Rio do Sul, SC. Atende os 28 municípios do Alto Vale do Itajaí (AMAVI) e todo o Brasil.
 
 ## Contato
 
 - Site: https://www.tcodesolucoes.com/
 - WhatsApp: +55 47 99112-0742
-- Endereço: Rio do Sul, SC, 89160-000
+- Endereço: Rio do Sul, SC
 - LinkedIn: https://br.linkedin.com/company/t-code-solucoes-tecnologicas
 - Instagram: https://www.instagram.com/tcodesolucoes/
 
 ## Serviços
 
-- Do protótipo à produção: coloca no ar sites e sistemas iniciados com ferramentas de IA (Lovable, Bolt, v0 e similares)
+- Colocar e manter no ar: publica, corrige e mantém online sites e sistemas criados com ferramentas de IA (Lovable, Bolt, v0 e similares)
 - Produtos digitais sob medida: plataformas web, sistemas corporativos e SaaS
 - Evolução e operação contínua: deploy, monitoramento e manutenção
-- Adaptação ao seu processo: extensão e customização de sistemas existentes
 - Automação de processos: integrações com ERPs, APIs e plataformas
 - Direção estratégica de produto: arquitetura, diagnóstico e priorização
 - Presença digital com propósito: sites e portais corporativos
@@ -58,12 +57,11 @@ A T-Code Soluções atende empresas em todos os 28 municípios associados à AMA
 ## Páginas de serviços
 
 - Serviços: https://www.tcodesolucoes.com/servicos
-- Protótipo em produção: https://www.tcodesolucoes.com/servicos/prototipo-producao
+- Colocar e manter no ar: https://www.tcodesolucoes.com/servicos/prototipo-producao
 - Produtos digitais sob medida: https://www.tcodesolucoes.com/servicos/produtos-digitais
 - Evolução e operação contínua: https://www.tcodesolucoes.com/servicos/producao
-- Adaptação ao processo: https://www.tcodesolucoes.com/servicos/customizacao
 - Automação de processos: https://www.tcodesolucoes.com/servicos/integracoes
-- Consultoria de produto: https://www.tcodesolucoes.com/servicos/consultoria
+- Direção estratégica de produto: https://www.tcodesolucoes.com/servicos/consultoria
 - Presença digital: https://www.tcodesolucoes.com/servicos/site
 
 ## Produto social regional

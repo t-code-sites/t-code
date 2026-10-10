@@ -6,7 +6,6 @@ import { SITE_BASE, amaviCitySlugs, serviceSlugs } from './seo-routes.mjs';
 const __dirname = dirname(fileURLToPath(import.meta.url));
 const distDir = join(__dirname, '../dist');
 const brand = 'T-Code Soluções';
-const ogImage = `${SITE_BASE}/banners/banner-landing-page-main.webp`;
 
 const cityNames = {
     agrolandia: 'Agrolândia',
@@ -41,43 +40,38 @@ const cityNames = {
 
 const serviceMeta = {
     'prototipo-producao': {
-        title: 'Do protótipo à produção',
+        title: 'Colocar e manter no ar',
         description:
-            'Colocamos no ar o que você começou com ferramentas de IA e assumimos a manutenção. Atendimento em Rio do Sul, SC e Alto Vale do Itajaí.',
+            'Publicamos, corrigimos e mantemos no ar o site ou sistema criado com IA. Atendimento em Rio do Sul, SC e Alto Vale do Itajaí.',
     },
     'produtos-digitais': {
         title: 'Produtos digitais sob medida',
         description:
-            'Plataformas web, sistemas corporativos e SaaS construídos para as regras do seu negócio. Atendimento em Rio do Sul, SC e Alto Vale do Itajaí.',
+            'Construímos plataformas, sistemas e SaaS sob medida, da ideia à produção. Atendimento em Rio do Sul, SC e Alto Vale do Itajaí.',
     },
     producao: {
         title: 'Evolução e operação contínua',
         description:
-            'Deploy, monitoramento e melhorias para que a tecnologia acompanhe o crescimento. Atendimento em Rio do Sul, SC e Alto Vale do Itajaí.',
-    },
-    customizacao: {
-        title: 'Adaptação ao seu processo',
-        description:
-            'Estendemos sistemas existentes para refletir como sua empresa opera. Atendimento em Rio do Sul, SC e Alto Vale do Itajaí.',
+            'Cuidamos de deploy, monitoramento e melhorias com o sistema já no ar. Atendimento em Rio do Sul, SC e Alto Vale do Itajaí.',
     },
     integracoes: {
         title: 'Automação de processos',
         description:
-            'Integrações com ERPs, plataformas e APIs para eliminar retrabalho. Atendimento em Rio do Sul, SC e Alto Vale do Itajaí.',
+            'Conectamos ERPs, plataformas e APIs para cortar retrabalho na operação. Atendimento em Rio do Sul, SC e Alto Vale do Itajaí.',
     },
     consultoria: {
         title: 'Direção estratégica de produto',
         description:
-            'Diagnóstico, arquitetura e priorização antes de investir em tecnologia. Atendimento em Rio do Sul, SC e Alto Vale do Itajaí.',
+            'Definimos arquitetura e prioridades antes de investir em desenvolvimento. Atendimento em Rio do Sul, SC e Alto Vale do Itajaí.',
     },
     site: {
         title: 'Presença digital com propósito',
         description:
-            'Sites e portais que posicionam sua marca e captam oportunidades. Atendimento em Rio do Sul, SC e Alto Vale do Itajaí.',
+            'Fazemos sites e portais que posicionam a marca e captam oportunidades. Atendimento em Rio do Sul, SC e Alto Vale do Itajaí.',
     },
 };
 
-function cityJsonLd(cityName, slug) {
+function cityJsonLd(cityName) {
     return {
         '@context': 'https://schema.org',
         '@graph': [
@@ -87,19 +81,6 @@ function cityJsonLd(cityName, slug) {
                 url: SITE_BASE,
                 description: `Desenvolvimento de software sob medida para empresas em ${cityName}, SC.`,
                 areaServed: { '@type': 'City', name: cityName },
-            },
-            {
-                '@type': 'FAQPage',
-                mainEntity: [
-                    {
-                        '@type': 'Question',
-                        name: `A T-Code Soluções atende empresas em ${cityName}?`,
-                        acceptedAnswer: {
-                            '@type': 'Answer',
-                            text: `Sim. A T-Code Soluções atende empresas em ${cityName}, SC, com sede em Rio do Sul.`,
-                        },
-                    },
-                ],
             },
         ],
     };
@@ -146,7 +127,7 @@ function getSeoPages() {
             route: `/regiao/${slug}`,
             title: `Desenvolvimento de Software em ${cityName}, SC | ${brand}`,
             description: `Software sob medida, automação e protótipos em produção para empresas em ${cityName}, SC.${hq}`,
-            jsonLd: cityJsonLd(cityName, slug),
+            jsonLd: cityJsonLd(cityName),
         });
     }
 

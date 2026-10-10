@@ -7,7 +7,7 @@ function NotFound() {
                 <h2 className="text-9xl font-black text-gray-200 md:mb-10">
                     404
                 </h2>
-                <svg className="block max-w-[520px] mx-auto animate__fadeInDown duration-1000" id="i-fof" viewBox="0 0 520 450">
+                <svg className="mx-auto block max-w-[520px]" id="i-fof" viewBox="0 0 520 450">
                     <g id="i-fof-ship">
                         <path id="i-fof-capsule" d="M260,9a53,53,0,0,0-53,53H313A53,53,0,0,0,260,9Z"
                               fill="hsl(240, 4%, 85%)"/>

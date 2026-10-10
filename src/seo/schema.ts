@@ -1,5 +1,4 @@
 import { amaviCities } from '@/data/amaviCities';
-import { problemsSection } from '@/data/landingContent';
 import { services } from '@/data/services';
 import { SITE_BASE } from '@/config/site';
 import type { AmaviCity } from '@/data/amaviCities';
@@ -57,7 +56,7 @@ export function buildHomeSchema() {
                 url: SITE_BASE,
                 logo: `${SITE_BASE}/favicon.svg`,
                 description:
-                    'Parceira tecnológica em Rio do Sul, SC. Coloca em produção protótipos criados com ferramentas de IA, desenvolve software sob medida e assume manutenção contínua.',
+                    'Coloca no ar, corrige e mantém online sites e sistemas criados com ferramentas de IA. Sede em Rio do Sul, SC.',
                 email: businessContact.email,
                 telephone: businessContact.telephone,
                 address: {
@@ -97,18 +96,6 @@ export function buildHomeSchema() {
                 inLanguage: 'pt-BR',
                 publisher: { '@id': organizationId },
             },
-            {
-                '@type': 'FAQPage',
-                '@id': `${SITE_BASE}/#faq`,
-                mainEntity: problemsSection.items.map((item) => ({
-                    '@type': 'Question',
-                    name: item.title,
-                    acceptedAnswer: {
-                        '@type': 'Answer',
-                        text: item.text,
-                    },
-                })),
-            },
         ],
     };
 }
@@ -139,27 +126,6 @@ export function buildCitySchema(city: AmaviCity) {
                 itemListElement: [
                     { '@type': 'ListItem', position: 1, name: 'Início', item: SITE_BASE },
                     { '@type': 'ListItem', position: 2, name: city.name, item: url },
-                ],
-            },
-            {
-                '@type': 'FAQPage',
-                mainEntity: [
-                    {
-                        '@type': 'Question',
-                        name: `A T-Code Soluções atende empresas em ${city.name}?`,
-                        acceptedAnswer: {
-                            '@type': 'Answer',
-                            text: `Sim. A T-Code Soluções atende empresas em ${city.name}, SC. A sede fica em Rio do Sul e o atendimento cobre os 28 municípios do Alto Vale do Itajaí (AMAVI).`,
-                        },
-                    },
-                    {
-                        '@type': 'Question',
-                        name: `Quais serviços de software a T-Code oferece em ${city.name}?`,
-                        acceptedAnswer: {
-                            '@type': 'Answer',
-                            text: `Em ${city.name}, a T-Code oferece colocação de protótipos em produção, desenvolvimento de software sob medida, automação de processos, integrações com ERPs, consultoria de produto e sites corporativos.`,
-                        },
-                    },
                 ],
             },
         ],

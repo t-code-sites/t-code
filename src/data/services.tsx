@@ -1,58 +1,53 @@
+const cardCopy = {
+    'prototipo-producao':
+        'Publicamos, corrigimos e mantemos no ar o site ou sistema criado com IA.',
+    'produtos-digitais':
+        'Construímos plataformas, sistemas e SaaS sob medida, da ideia à produção.',
+    producao:
+        'Cuidamos de deploy, monitoramento e melhorias com o sistema já no ar.',
+    integracoes:
+        'Conectamos ERPs, plataformas e APIs para cortar retrabalho na operação.',
+    consultoria:
+        'Definimos arquitetura e prioridades antes de investir em desenvolvimento.',
+    site:
+        'Fazemos sites e portais que posicionam a marca e captam oportunidades.',
+} as const;
+
 export const services = [
     {
-        title: 'Do protótipo à produção',
+        title: 'Colocar e manter no ar',
         id: 'prototipo-producao',
-        subtitle:
-            'Colocamos no ar o que você começou com ferramentas de IA e assumimos a manutenção.',
-        description:
-            'Para quem já tem site ou sistema gerado por IA e precisa publicar, estabilizar e evoluir com um parceiro técnico. Sem recomeçar do zero.',
+        subtitle: cardCopy['prototipo-producao'],
+        description: cardCopy['prototipo-producao'],
     },
     {
         title: 'Produtos digitais sob medida',
         id: 'produtos-digitais',
-        subtitle:
-            'Da ideia ao sistema em produção: plataformas web, sistemas corporativos e SaaS construídos para as regras do seu negócio.',
-        description:
-            'Conduzimos projetos de software sob medida do levantamento de requisitos à entrega em produção. Experiência em sistemas corporativos, plataformas SaaS e aplicações web, sempre com arquitetura pensada para escalar.',
+        subtitle: cardCopy['produtos-digitais'],
+        description: cardCopy['produtos-digitais'],
     },
     {
         title: 'Evolução e operação contínua',
         id: 'producao',
-        subtitle:
-            'Seu produto no ar, estável e evoluindo. Cuidamos de deploy, monitoramento e melhorias para que a tecnologia acompanhe o crescimento.',
-        description:
-            'Software não termina no deploy. Mantemos sistemas e plataformas web estáveis, seguros e atualizados, para que sua operação não pare por falha técnica.',
-    },
-    {
-        title: 'Adaptação ao seu processo',
-        id: 'customizacao',
-        subtitle:
-            'Ajustamos e estendemos sistemas existentes para refletir como sua empresa realmente opera, sem reinventar tudo.',
-        description:
-            'Quando um sistema genérico não atende, adaptamos funcionalidades e fluxos às regras do seu domínio, com código sustentável e evolução previsível.',
+        subtitle: cardCopy.producao,
+        description: cardCopy.producao,
     },
     {
         title: 'Automação de processos',
         id: 'integracoes',
-        subtitle:
-            'Conectamos ERPs, plataformas e APIs para eliminar retrabalho, reduzir erros e acelerar a operação.',
-        description:
-            'Integramos sistemas que hoje operam isolados: ERPs, gateways, plataformas de terceiros e APIs de marketplaces. Menos planilhas, menos erro manual, mais previsibilidade.',
+        subtitle: cardCopy.integracoes,
+        description: cardCopy.integracoes,
     },
     {
         title: 'Direção estratégica de produto',
         id: 'consultoria',
-        subtitle:
-            'Diagnóstico, arquitetura e priorização para quem precisa de clareza antes de investir em tecnologia.',
-        description:
-            'Para quem precisa de uma visão clara antes de desenvolver: avaliamos o cenário, definimos arquitetura e priorizamos entregas com foco em retorno para o negócio.',
+        subtitle: cardCopy.consultoria,
+        description: cardCopy.consultoria,
     },
     {
         title: 'Presença digital com propósito',
         id: 'site',
-        subtitle:
-            'Sites e portais que posicionam sua marca, captam oportunidades e se integram ao ecossistema do negócio.',
-        description:
-            'Construímos e evoluímos sites e portais com foco em conversão, performance e integração com sistemas internos. Presença digital que trabalha a favor do negócio.',
+        subtitle: cardCopy.site,
+        description: cardCopy.site,
     },
 ];

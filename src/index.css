@@ -82,103 +82,24 @@
   .text-page-title {
     @apply text-balance text-3xl font-extrabold tracking-tight text-gray-900 sm:text-4xl lg:text-5xl;
   }
-  .text-page-subtitle {
-    @apply text-balance text-lg font-bold text-gray-800 sm:text-xl text-pretty text-left;
-  }
-  .text-page-lead {
-    @apply text-lg text-gray-600 sm:text-xl leading-relaxed text-pretty text-left;
-  }
-  .text-page-body {
-    @apply text-base text-gray-800 sm:text-lg leading-relaxed text-pretty text-left;
-  }
-  .text-page-muted {
-    @apply text-sm text-gray-600 text-pretty text-left;
-  }
   .text-page-section {
     @apply text-balance text-xl font-bold text-gray-900 sm:text-2xl;
-  }
-  .text-page-h2 {
-    @apply text-balance text-xl font-bold text-gray-900 sm:text-2xl lg:text-3xl;
-  }
-  .text-page-link {
-    @apply font-medium text-blue-800 underline-offset-2 decoration-blue-800/30 hover:underline;
   }
   .text-page-block {
     @apply text-base text-gray-800 sm:text-lg leading-relaxed text-pretty text-left;
   }
-  .text-page-block-invert {
-    @apply text-base sm:text-lg leading-relaxed text-pretty text-left text-white/90;
-  }
-  .text-section-intro {
-    @apply text-pretty text-left leading-relaxed;
-  }
-  .text-section-heading {
-    @apply text-balance text-2xl font-bold tracking-tight sm:text-3xl;
-  }
   .text-card-body {
     @apply text-sm leading-relaxed text-pretty text-left text-gray-600 sm:text-[0.95rem];
-  }
-  .text-card-body-invert {
-    @apply text-sm leading-relaxed text-pretty text-left text-slate-200/90 sm:text-[0.95rem];
-  }
-
-  .section-invert .text-section-heading {
-    @apply text-white;
-  }
-  .section-invert .text-section-intro {
-    @apply text-slate-300/95;
-  }
-  .section-invert .text-page-block {
-    @apply text-slate-200/95;
-  }
-  .section-invert .text-page-lead {
-    @apply text-slate-300/95;
-  }
-  .section-invert .text-page-h2 {
-    @apply text-white;
-  }
-  .section-invert .text-page-muted {
-    @apply text-slate-400;
-  }
-  .section-invert .text-page-link {
-    @apply text-blue-200 decoration-blue-200/40 hover:text-white;
-  }
-  .section-invert .text-card-body {
-    @apply text-slate-200/90;
-  }
-
-  .section-invert .section-card {
-    @apply border-white/10 bg-white/[0.08] hover:border-white/25 hover:bg-white/[0.12];
-  }
-  .section-invert .section-card-icon,
-  .section-invert .section-card-icon-lg {
-    @apply bg-white/10 text-white ring-white/10;
-  }
-  .section-invert .section-card-title {
-    @apply text-white;
-  }
-  .section-invert .section-divider {
-    @apply border-white/10;
-  }
-  .section-invert .section-card .text-card-body-invert {
-    @apply text-slate-200/90;
   }
 
   .section-light .section-card {
     @apply border-gray-200/90 bg-white shadow-sm hover:border-blue-500/40 hover:shadow-md;
   }
-  .section-light .section-card-icon,
-  .section-light .section-card-icon-lg {
+  .section-light .section-card-icon {
     @apply bg-blue-50 text-blue-700 ring-blue-100/80;
   }
   .section-light .section-card-title {
     @apply text-gray-900;
-  }
-  .section-light .section-card .text-card-body-invert {
-    @apply text-gray-600;
-  }
-  .section-light .section-divider {
-    @apply border-gray-200/80;
   }
 
   .section-card {
@@ -187,10 +108,19 @@
   .section-card-icon {
     @apply mb-4 inline-flex h-11 w-11 shrink-0 items-center justify-center rounded-xl;
   }
-  .section-card-icon-lg {
-    @apply mb-4 inline-flex h-12 w-12 shrink-0 items-center justify-center rounded-xl ring-1;
-  }
   .section-card-title {
     @apply text-base font-semibold sm:text-lg;
+  }
+
+  .landing-fade {
+    background-image: linear-gradient(
+      to bottom,
+      #1e3a8a 0%,
+      #1d4ed8 20%,
+      #3b82f6 40%,
+      #60a5fa 60%,
+      #bfdbfe 80%,
+      #ffffff 100%
+    );
   }
 }

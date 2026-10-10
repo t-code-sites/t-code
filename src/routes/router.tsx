@@ -112,8 +112,8 @@ function router() {
             <Route path="/servicos/:slug" element={<ServiceDetailRoute />} />
             <Route path="/regiao" element={<RegionalIndexRoute />} />
             <Route path="/regiao/:slug" element={<CityRoute />} />
-            <Route path="/sobre-a-empresa" element={<LegacyRedirect hash={`#${siteSections.quemSomos.id}`} />} />
-            <Route path="/projetos" element={<LegacyRedirect hash={`#${siteSections.projetos.id}`} />} />
+            <Route path="/sobre-a-empresa" element={<Navigate to="/" replace />} />
+            <Route path="/projetos" element={<Navigate to="/" replace />} />
             <Route path="/contato" element={<LegacyRedirect hash={`#${siteSections.contato.id}`} />} />
             <Route path="*" element={<NotFound />} />
         </Routes>
